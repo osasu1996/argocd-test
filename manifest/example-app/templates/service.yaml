@@ -4,7 +4,7 @@ metadata:
   labels:
     app: exam-app
   name: example-app
-  namespace: {{Values.namespace}}
+  namespace: {{ Values.namespace }}
 spec:
   ports:
     - port: 8080
@@ -13,4 +13,3 @@ spec:
   selector:
     app: exam-app
   type: NodePort
-ß
